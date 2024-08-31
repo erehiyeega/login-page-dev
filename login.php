@@ -4,8 +4,8 @@ session_start();
 $email = $_POST['email'];
 $password = $_POST['pass'];
 
-$hardcodedEmail = 'admin@email.com';
-$hardcodedPassword = 'wI87Xr2QbmCa';
+$hardcodedEmail = 'xxxxx';
+$hardcodedPassword = 'xxxxx';
 
 if ($email === $hardcodedEmail && $password === $hardcodedPassword) {
     $_SESSION['loggedin'] = true;
